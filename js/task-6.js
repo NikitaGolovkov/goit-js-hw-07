@@ -9,7 +9,7 @@ inputRef.addEventListener('blur', () => {
     inputRef.classList.add('invalid');
     inputRef.classList.remove('valid');
   }
-  if (inputRef.value.length == inputLengthRef) {
+  if (inputRef.value.length === inputLengthRef) {
     inputRef.classList.remove('invalid');
     inputRef.classList.add('valid');
   }

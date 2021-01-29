@@ -5,6 +5,6 @@ inputNameRef.addEventListener('input', () => {
   if (inputNameRef.value === '') {
     spanNameRef.textContent = 'незнакомец';
   } else {
-    spanNameRef.textContent = inputNameRef.value;
+    spanNameRef.textContent = inputNameRef.value || 'незнакомец';
   }
 });
